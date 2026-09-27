@@ -1,0 +1,11 @@
+# Core
+requests>=2.31
+numpy>=1.24
+scipy>=1.10        # stats.theilslopes, stats.kendalltau
+
+# Reporting
+matplotlib>=3.7    # chart PNG + bundles the DejaVu Sans TTF used for Unicode PDF text
+reportlab>=4.0      # one-page PDF report
+
+# Dev / tests (stdlib unittest works without these; pytest is optional)
+pytest>=7.0
